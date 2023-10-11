@@ -1,0 +1,56 @@
+h1 {
+  color: red;
+  /* background-color: yellow; */
+}
+.leftside{
+    /* vh -View height */
+    height: 100vh; 
+    width: 50vw;
+}
+.rightside{
+    /* vh -View height */
+    height: 100vh; 
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+p {
+  color: green;
+}
+li {
+  color: white;
+}
+
+.heading {
+  background-color: yellow;
+}
+.inputDiv {
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.unOrderList {
+    height: 350px;
+  background-color: aqua;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  list-style: none;
+}
+
+.orderedList {
+    height: 50px;
+    background-color: brown;
+    padding: 40px;
+    margin: 30px;
+}
+.fullDiv{
+    display: flex;
+}
+
+.fullDiv p{
+    margin: 30px;
+    padding: 30px;
+}
